@@ -1,0 +1,180 @@
+/*esto es un comentario de css*/
+
+/*selectores de id*/
+
+#Desc{
+    border: #38afff 2px solid;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+#tabla-exp{
+    width: 100%;
+    margin-bottom: 20px;
+    color: #dadadaea;
+    font-size: 16px;
+    text-align: left;
+    padding: 10px;
+}
+
+#text-ft{
+    color: #dadadaea;
+    font-size: 16px;
+    vertical-align: middle;
+}
+
+#ig {
+    width: 80px;
+    height: 50px;
+    margin: 5px;
+    padding-right: -10px;
+}
+
+#whatsapp {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    padding-left: -20px;
+}
+
+#fb {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    padding-left: -20px;
+}
+
+#point{
+    color: #000000e1;
+    font-size: 1px;
+    margin: 0;
+}
+#foto {
+    display:grid;
+    float: left;
+    margin-left: 0px;
+    margin-right: auto;
+    width: 160px;
+    height: 200px;
+    border-radius: 15%;
+    border: 3px solid #38afff;
+}
+#nombre {
+    color: rgb(0, 137, 179);
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 30px;
+    
+}
+#date-exp{
+    font-style:oblique;
+    color:#dadadaea
+}
+
+/*selectores de clases*/
+
+.videos{
+    border: #38afff 2px solid;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.Radio{
+    color: #dadadaea;
+    font-size: 15px;
+}
+
+.redes-sociales{
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+
+}
+
+.redes-sociales img{
+    vertical-align: middle;
+}
+
+.title-small{
+    font-size: 1.5em;
+    color:#86c7fce1
+}
+
+.parrafo {
+    margin: 20px;
+    font-size: 16px;
+    color: #dadadaea;
+    line-height: 1.5;
+    text-align: justify;
+    margin-bottom: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.subtitle {
+    color: #38afff;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.personaldata {
+    text-indent: 10px;
+    font-size: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 10px;
+    color: #ebebeb;
+    font-style: italic;
+    
+}
+
+/* selectores de etiqueta*/
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #000000e1;
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid #38afff;
+    border-radius: 10px;
+}
+
+hr {
+    border: 1px solid #38afff;
+    margin: 20px 0;
+    padding: 0px;
+}
+
+td{
+    border: 1px solid #38afff;
+    padding: 10px;
+    text-align: left;
+}
+/*Destacar de las otras filas*/th{
+    background-color: #38afff;
+    color: white;
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #38afff;
+    font-size: 18px;
+}
+
+label{
+    font-size: 16px;
+    color: #dadadaea;
+    }
+
+button{
+    background-color: #38afff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}

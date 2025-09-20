@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <title>Juan Diego López Giménez</title>
+    <link rel="stylesheet" href=CSS/estilos.css>
+    <link rel="shortcut icon" href="img/logotipo-de-batman.png" type="image/x-icon">
+    <!-- Juan Lopez, juandiegolopez2301@gmail.com, 28/08/2025-->
+</head>
+
+<body>
+    <header>
+        <img src="img/juan.jpg" alt="Foto de Juan Lopez" title="foto-cv" id="foto">
+        <h1 id="nombre">Juan López</h1>
+    </header>
+    <main>
+
+        <hr>
+        <section>
+            <p class="personaldata">Direccion: Residencia La Floresta, Barquisimeto, Edo. Lara ,Venezuela</p>
+            <a href="tel:+584125248284">
+                <p class="personaldata">Numero Telefonico: 0412-5248284</p>
+            </a>
+            <a href="mailto:juandiegolopez2301@gmail.com">
+                <p class="personaldata">Correo: juandiegolopez2301@gmail.com</p>
+            </a>
+            <p id="point">.</p>
+        </section>
+        <hr>
+        <section>
+            <h3 class="title-small">Objetivos</h3>
+            <p class="parrafo">Persona joven, responsable y con muchas ganas de aprender y trabajar.
+                Busco mi primera oportunidad laboral para adquirir experiencia, aportar mis habilidades
+                y desarrollarme profesionalmente en cualquier área donde pueda ser útil.</p>
+        </section>
+        <hr>
+        <section>
+            <h3 class="title-small">Educacion</h3>
+            <h4 class="subtitle">BACHILLER EN CIENCIAS, JULIO DE 2025</h4>
+            <article>
+                <ol>
+                    <li class="parrafo">Unidad Educativa Colegio Independencia</li>
+                    <li class="parrafo">Promedio: 18.5</li>
+                </ol>
+            </article>
+
+            <h4 class="subtitle">CARRERA TECNICA FUNDAMENTOS DE PROGRAMACION CON PYTHON, AGOSTO 2025</h4>
+            <article>
+                <ol>
+                    <li class="parrafo">CadiF1 Academia de Software (Cursando)</li>
+                    <li class="parrafo">Duracion: 4 meses</li>
+                </ol>
+            </article>
+        </section>
+        <hr>
+        <section>
+            <h3 class="title-small">Experiencia</h3>
+            <!--<h4 class="subtitle">ASISTENTE TECNICO, ECOLOGICAL SOFTWARE</h4>
+            <h6 id="date-exp">2022 – 2024</h6>
+            <ul>
+                <li class="parrafo"> Apoyo en formateo y reparación básica de computadoras.</li>
+                <li class="parrafo"> Instalación de programas y solución de errores comunes en sistemas.</li>
+                <li class="parrafo"> Mantenimiento preventivo de equipos.</li>
+                <li class="parrafo"> Aprendizaje y práctica de uso de sistemas de facturación.</li>
+            </ul>-->
+            <table id="tabla-exp">
+                <thead>
+                    <th>Nombre de la empresa </th>
+                    <th>Cargo</th>
+                    <th>Fecha inicio</th>
+                    <th>Fecha fin</th>
+                    <th>Contacto (telefono o email)</th>
+                </thead>
+                <tr>
+                    <td>Ecological Software</td>
+                    <td>Asistente tecnico</td>
+                    <td>2022</td>
+                    <td>2024</td>
+                    <td> 0251-2611234</td>
+                </tr>
+                <tr>
+                    <td>Tech Solutions S.A.</td>
+                    <td>Gerente de Proyectos</td>
+                    <td>2019</td>
+                    <td>2022</td>
+                    <td>pedro.ramirez@techsolutions.com</td>
+                </tr>
+                <tr>
+                    <td>Marketing Intelligence S.L.</td>
+                    <td>Analista de Datos</td>
+                    <td>2021</td>
+                    <td>2023</td>
+                    <td>sofia.castro@marketingint.es</td>
+                </tr>
+                <tr>
+                    <td>E-commerce Innovators LLC</td>
+                    <td>Desarrollador Web Junior</td>
+                    <td>2022</td>
+                    <td>2024</td>
+                    <td>laura.gomez@ecommerceinnovators.com</td>
+                </tr>
+                <tr>
+                    <td>Juris Abogados Asociados</td>
+                    <td>Asistente Administrativo</td>
+                    <td>2018</td>
+                    <td>2021</td>
+                    <td>juan.perez@jurisabogados.net</td>
+                </tr>
+            </table>
+        </section>
+        <hr>
+
+        <section>
+            <h3 class="title-small">Aptitudes</h3>
+            <ul>
+                <li class="parrafo"> Manejo de computadoras a nivel usuario</li>
+                <li class="parrafo"> Uso de redes sociales</li>
+                <li class="parrafo"> Conocimiento de Microsoft Word</li>
+                <li class="parrafo"> Conocimiento básico de Excel</li>
+                <li class="parrafo"> Facilidad para aprender y adaptarse</li>
+                <li class="parrafo"> Buena actitud y disposición para el trabajo</li>
+            </ul>
+        </section>
+        <hr>
+        <section>
+            <h3 class="title-small">Idiomas</h3>
+            <ul>
+                <li class="parrafo"> Español: Nativo </li>
+                <li class="parrafo"> Inglés: Nivel intermedio (lectura, escritura y conversación básica)</li>
+            </ul>
+        </section>
+        <hr>
+        <section><!--Registro para interesados en contratarme-->
+            <form action="" method="post">
+                <h3 class="title-small">Posibles Contratos</h3>
+                <label for="name">Nombre</label><br><br>
+                <input type="text" name="Nombre" id="name" placeholder="Nombre completo" required>
+                <br><br>
+                <label for="email">Correo</label><br><br>
+                <input type="email" name="Correo" id="email" placeholder="Correo electronico" required>
+                <br><br>
+                <label for="lc">Lista de Paises</label><br><br>
+                <select name="List_country" id="lc" required><!--lista de paises donde estan solicitando trabajar conmigo-->
+                    <option value="">Estados Unidos</option>
+                    <option value="">España</option>
+                    <option value="">Mexico</option>
+                    <option value="">Colombia</option>
+                    <option value="">Argentina</option>
+                    <option value="">Chile</option>
+                    <option value="">Peru</option>
+                    <option value="">Venezuela</option>
+                    <option value="">Otro</option>
+                </select>
+                <br><br>
+                <label for="tipo-trabajo">Tipo de trabajo</label><br><br>
+                <input type="radio" name="tipo-trabajo" value="Presencial" required><span class="Radio">Presencial</span>
+                <input type="radio" name="tipo-trabajo" value="Remoto" required><span class="Radio">Remoto</span>
+                <br><br>
+                <label for="tools">Herramientas que debo dominar</label><br><br>
+                <input type="checkbox" name="Herramientas" id="tools"><span class="Radio">Python</span><br>
+                <input type="checkbox" name="Herramientas" id="tools"><span class="Radio">Html</span><br>
+                <input type="checkbox" name="Herramientas" id="tools"><span class="Radio">Javascript</span><br>
+                <input type="checkbox" name="Herramientas" id="tools"><span class="Radio">CSS</span><br>
+                <input type="checkbox" name="Herramientas" id="tools"><span class="Radio">MySQL</span><br>
+                <input type="checkbox" name="Herramientas" id="tools"><span class="Radio">Java</span><br>
+                <input type="checkbox" name="Herramientas" id="tools"><span class="Radio">C++</span><br>
+                <br>
+                <label for="Desc">Descripcion del Cargo</label><br>
+                <br>
+                <textarea name="Descripcion" id="Desc" rows="6" cols="45" maxlength="750" placeholder="Descripción del cargo a ofrecer."></textarea><br><br>
+                <button type="submit">Enviar Registro</button>
+                <button type="reset">Reiniciar Datos</button>
+            </form>
+        </section>
+        <hr>
+        <section>
+            <h3 class="title-small">Video Decorativo</h3>
+            <video src="Videos/Coffe_web.mp4" loop controls class="videos"></video>
+        </section>
+        <hr>
+        <footer>
+            <div class="redes-sociales"> <!--div para centrar las imagenes y el texto en el footer-->
+                <a href="http://instagram.com/juand.lopezz" target="_blank" rel="noopener noreferrer"><img
+                        src="img/ig logo.png" alt="ig" id="ig"></a>
+                <a href="http://wa.me/+584125248284" target="_blank" rel="noopener noreferrer"><img
+                        src="img/whatsapp logo.webp" alt="Whatsapp" id="whatsapp"></a>
+                <a href="http://www.facebook.com/profile.php?id=100017378749225" target="_blank"
+                    rel="noopener noreferrer"><img src="img/Fb logo.webp" alt="Facebook" id="fb"></a>
+                <span id="text-ft">Tambien pueden contactarme en mis otras redes</span>
+            </div>
+        </footer>
+    </main>
+</body>
+
+</html>
